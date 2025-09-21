@@ -85,7 +85,7 @@ df_aov = pd.DataFrame({
     "Bulan": ["Julai","Ogos","Sept"],
     "Jumlah Jualan (RM)": [50000,60000,75000],
     "Jumlah Pembelian": [500,600,750],
-    "AOV (RM)": [100,100,1000]
+    "AOV (RM)": [100,100,100]
 })
 aov_chart = alt.Chart(df_aov).mark_line(point=True, color="green").encode(
     x="Bulan",
