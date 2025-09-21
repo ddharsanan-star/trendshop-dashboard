@@ -13,7 +13,7 @@ col1.metric("Kadar Penukaran", "5%", "↔")
 col2.metric("Pelawat Laman Web", 6000+5000+4000+0, "↑ 25%")
 col3.metric("Pelanggan Baru", 500, "↑ 11%")
 col4.metric("NPS Score", 6, "↓ 2")
-col5.metric("AOV (RM)", 100, "↑ 900")
+col5.metric("AOV (RM)", 100, "↔ 100")
 
 # ---- 2. Conversion Rate Trend ----
 st.subheader("📈 Kadar Penukaran Trend")
