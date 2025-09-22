@@ -19,7 +19,7 @@ col5.metric("AOV (RM)", 100, "↔ 100")
 st.subheader("📈 Kadar Penukaran Trend")
 df_conv = pd.DataFrame({
     "Bulan": ["Julai", "Ogos", "Sept"],
-    "Pelawat": [10000, 12000, 15000],
+    "Pelawat": [1000, 12000, 15000],
     "Pembelian": [500, 600, 750],
     "Kadar Penukaran (%)": [5, 5, 5]
 })
