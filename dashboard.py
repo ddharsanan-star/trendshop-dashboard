@@ -18,10 +18,10 @@ col5.metric("AOV (RM)", 100, "↔ 100")
 # ---- 2. Conversion Rate Trend ----
 st.subheader("📈 Kadar Penukaran Trend")
 df_conv = pd.DataFrame({
-    "Bulan": ["Jun", "Ogos", "Sept"],
+    "Bulan": ["Julai", "Ogos", "Sept"],
     "Pelawat": [1000, 12000, 15000],
     "Pembelian": [500, 600, 750],
-    "Kadar Penukaran (%)": [3, 5, 7]
+    "Kadar Penukaran (%)": [5, 5, 5]
 })
 line_chart = alt.Chart(df_conv).mark_line(point=True).encode(
     x="Bulan",
